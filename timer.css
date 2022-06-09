@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(255, 0, 238, 0.778), rgb(54, 179, 233));
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #101010;
+    margin-top: 10%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    min-width: 300px;
+    height: auto;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.heading {
+    font-family: 'Joan', serif;
+}
+
+.time {
+    font-size: 40px;
+}
+
+.all-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.btn {
+    background-color: rgba(10, 192, 233, 0.425);
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
